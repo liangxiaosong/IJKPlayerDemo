@@ -1,0 +1,41 @@
+PODS:
+  - ASIHTTPRequest (1.8.2):
+    - ASIHTTPRequest/ASIWebPageRequest (= 1.8.2)
+    - ASIHTTPRequest/CloudFiles (= 1.8.2)
+    - ASIHTTPRequest/Core (= 1.8.2)
+    - ASIHTTPRequest/S3 (= 1.8.2)
+  - ASIHTTPRequest/ASIWebPageRequest (1.8.2):
+    - ASIHTTPRequest/Core
+  - ASIHTTPRequest/CloudFiles (1.8.2):
+    - ASIHTTPRequest/Core
+  - ASIHTTPRequest/Core (1.8.2):
+    - Reachability
+  - ASIHTTPRequest/S3 (1.8.2):
+    - ASIHTTPRequest/Core
+  - BarrageRenderer (1.9.1)
+  - Masonry (1.0.2)
+  - MLEmojiLabel (1.0.2):
+    - TTTAttributedLabel (~> 1.13.4)
+  - Reachability (3.2)
+  - TTTAttributedLabel (1.13.4)
+  - ZFDownload (1.0.2):
+    - ASIHTTPRequest
+
+DEPENDENCIES:
+  - BarrageRenderer
+  - Masonry
+  - MLEmojiLabel
+  - ZFDownload
+
+SPEC CHECKSUMS:
+  ASIHTTPRequest: ec013992946676b7978dcbde6396d57312d21db4
+  BarrageRenderer: 55bbe4557d48adbdca6c1ebdfef96946fdb5e5b2
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  MLEmojiLabel: 36d73c19f9975cbf9def24e5bc135263b0337fd8
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  TTTAttributedLabel: 0a2ac7b2dd726d32a070dafb01446026b11e624f
+  ZFDownload: a52f94ebb080833b8a8ceb19a409f2941343fe7f
+
+PODFILE CHECKSUM: e765f1a325216c2e6c7be1d909489c1d3503cae5
+
+COCOAPODS: 1.2.1.beta.1
